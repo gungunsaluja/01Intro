@@ -21,11 +21,39 @@
 // console.log(Number);
 // console.log(boolean)
 // ;
-console.log(null>0);
-console.log(null==0);
-console.log(null!=0);
-console.log(undefined==0);
-console.log(undefined!=0);
-console.log("2"===2);
-// primitive
+// console.log(null>0);
+// console.log(null==0);
+// console.log(null!=0);
+// console.log(undefined==0);
+// console.log(undefined!=0);
+// console.log("2"===2);
+// primitive data type are those where we have only copy not actual reference of memory
+// there are 7 types string,Number,BigInt,null, undefined,Boolean,Symbol
+//non primitive data types are those where we have actual reference of memory  arrays,object,functions;
+
+// let id = Symbol('123');
+// let anoid = Symbol('123');
+// console.log(id==anoid);
+// console.log(id);
+// console.log(typeof anoid);
+// const nobo = function(){
+//     console.log("hello ba");
+// }
+//const nobo = ()=>{
+    // console.log("hello ba");
+// }
+// static memory is primitive and dynamic memory is heap memory 
+
+// console.log(typeof nobo);;
+// const app = {
+//     name:"gungun",
+//     rollno:35
+// };
+// console.log(typeof app);
+// console.log(app);
+
+// nobo();
+const min = 10;
+const max = 20;
+console.log(Math.floor(Math.random()*(max-min+1))+min);// generating numbers from 10 - 20 randomly
 
