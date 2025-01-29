@@ -57,15 +57,34 @@
 // const max = 20;
 // console.log(Math.floor(Math.random()*(max-min+1))+min);// generating numbers from 10 - 20 randomly
 
-const user = {
-    username:"Gungun",
-    price:999,
-    welcomeMessage:function()
-    {
-        console.log(`${this.username},welcome to website`);
+// const user = {
+//     username:"Gungun",
+//     price:999,
+//     welcomeMessage:function()
+//     {
+//         console.log(`${this.username},welcome to website`);
 
-    }
+//     }
+// }
+// user.welcomeMessage();
+// user.username = "sam";
+// user.welcomeMessage();
+
+// console.log(this);
+
+// function chat(){
+//     console.log(this);
+// }
+// chat();
+// const chai = function()
+// {
+//     let username = "hitesh";
+//     console.log(this.username);
+// }
+// chai();
+const chai = () =>{
+    let username = "gungun";
+    console.log(this.username);
 }
-user.welcomeMessage();
-user.username = "sam";
-user.welcomeMessage();
+
+chai();
