@@ -82,9 +82,18 @@
 //     console.log(this.username);
 // }
 // chai();
-const chai = () =>{
-    let username = "gungun";
-    console.log(this.username);
-}
+// const chai = () =>{
+//     let username = "gungun";
+//     console.log(this.username);
+// }
 
-chai();
+// chai(); 
+// iife
+(function chai()
+{
+    console.log(`DB Connected`);
+})();
+
+(()=>{
+    console.log(`DB Connected to`);
+})();
